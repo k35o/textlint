@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753520227918,
+  "lastUpdate": 1753520410680,
   "repoUrl": "https://github.com/k35o/textlint",
   "entries": {
     "Benchmark": [
@@ -11382,6 +11382,48 @@ window.BENCHMARK_DATA = {
             "value": 0.6031713447,
             "unit": "seconds",
             "range": "± 0.015882754000000054"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kouki_sakano@dwango.co.jp",
+            "name": "k8o",
+            "username": "k35o"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c3de216aa498fef1b1cf6abdbeb7fd26bb277df2",
+          "message": "feat: add filterRules parameter to TextlintKernelDescriptor",
+          "timestamp": "2025-07-26T17:57:52+09:00",
+          "tree_id": "9dab6df42eef3d256a3a68b19344669e6ebe830d",
+          "url": "https://github.com/k35o/textlint/commit/c3de216aa498fef1b1cf6abdbeb7fd26bb277df2"
+        },
+        "date": 1753520409966,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.24697253136000002,
+            "unit": "seconds",
+            "range": "± 0.22039667500000001"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.7282684619600002,
+            "unit": "seconds",
+            "range": "± 0.05796909200000022"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.5995721789599999,
+            "unit": "seconds",
+            "range": "± 0.019355061000000062"
           }
         ]
       }
